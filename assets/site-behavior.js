@@ -35,5 +35,11 @@
       try { localStorage.setItem(key, chosen); } catch { /* Still works for this visit. */ }
     });
 
+    const video = document.querySelector('.paper-video');
+    if (video) {
+      video.muted = true;
+      // Also request playback explicitly for embedded preview browsers.
+      video.play().catch(() => {});
+    }
   });
 })();
