@@ -1,0 +1,10 @@
+/* Owner-approved style: Iris accent, original typography, a quiet empty blog. */
+:root{--global-theme-color:#5b47b7;--global-hover-color:#493992;--global-code-bg-color:#f5f4fb}
+a{color:#5b47b7}a:hover,a:focus{color:#493992}
+.al-nav [aria-current="page"]{color:#5b47b7;border-color:#5b47b7}
+.al-wrap .paper-links a:hover,.al-wrap .paper-links a:focus{color:#493992;border-color:#5b47b7;background:#f5f4fb}
+a:focus-visible,button:focus-visible,summary:focus-visible{outline-color:#5b47b7}
+::selection{background:#dedaf1}
+.blog-empty{min-height:50vh;padding-bottom:80px}
+.blog-empty-note{margin-top:38px;padding-top:24px;border-top:1px solid #e7e7e7;color:#818181;font-size:1em}
+@media(max-width:650px){.blog-empty{min-height:48vh}}

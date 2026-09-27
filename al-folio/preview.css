@@ -1,0 +1,29 @@
+/* Local adaptation; third_party styles remain unchanged. */
+body{font-family:Roboto,-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;color:#303030;font-weight:300}a{color:#5b47b7}h1,h2{font-weight:300}.al-nav{border-bottom:1px solid #e4e4e4}.al-nav>div{max-width:940px;margin:auto;padding:20px 30px;display:flex;justify-content:space-between;align-items:center}.al-nav nav{display:flex;gap:25px}.al-nav .brand{color:#303030}.al-wrap{max-width:940px;margin:48px auto 0;padding:0 30px}.al-profile{float:left;margin:0 34px 22px 0}.al-profile .monogram,.al-profile .portrait{width:200px;border-radius:4px}.al-intro h1{font-size:41px;line-height:1.2;margin-bottom:8px}.al-intro .desc{font-size:14px;color:#777;margin-bottom:22px}.al-intro p{line-height:1.8}.al-wrap section{clear:both;padding-top:45px}.al-bibliography{display:grid;grid-template-columns:65px 1fr;gap:20px}.year-label{font-size:20px;color:#c7c7c7;border-top:1px solid #dedede;padding-top:10px}.al-wrap .paper{display:grid;grid-template-columns:190px 1fr;gap:22px}.al-wrap .paper h3{font-size:16px}.al-wrap .paper h3 a{color:#303030;font-weight:600}.al-wrap .paper .paper-year{display:none}.al-wrap .paper-image{padding-top:8px}.al-wrap .paper-summary{font-weight:300;font-size:14px}.al-wrap .paper-links{font-size:12px}.al-education{display:flex;flex-direction:column;gap:24px}.al-education .education-item{margin-bottom:0}.al-education .education-period{font-size:13px;color:#858585;margin-bottom:5px;font-variant-numeric:tabular-nums}.al-education .education-note{font-size:13px;margin-top:5px;color:#858585}.al-wrap .candidate-footer{margin-top:30px}.al-wrap .paper-links a{border:1px solid #d0d0d0;padding:0 8px;color:#333}.al-wrap .paper-links span[aria-hidden]{display:none}.al-wrap .profile-links{font-size:13px}
+@media(max-width:650px){.al-nav>div{padding:17px 21px;flex-wrap:wrap;gap:14px}.al-nav nav{gap:16px;font-size:13px}.al-nav .brand{font-size:13px}.al-wrap{margin-top:30px;padding:0 23px}.al-profile{float:right;margin:0 0 16px 20px}.al-profile .monogram,.al-profile .portrait{width:90px;font-size:34px}.al-intro h1{font-size:32px}.al-intro .desc{font-size:12px;margin-bottom:26px}.al-bibliography{grid-template-columns:1fr;gap:12px}.year-label{font-size:14px;width:60px}.al-wrap .paper{grid-template-columns:1fr;gap:15px}.al-wrap .paper-image{max-width:100%}.al-education{gap:24px}.al-wrap section{padding-top:32px}}
+.al-profile .portrait{display:block;border-radius:6px;box-shadow:0 2px 5px 0 rgba(0,0,0,.16),0 2px 10px 0 rgba(0,0,0,.12)}
+/* Blog previews share the homepage typography and restrained accent. */
+.al-nav [aria-current="page"]{color:#5b47b7;border-bottom:1px solid #5b47b7}
+.blog-wrap{max-width:820px;margin:54px auto 0;padding:0 30px}
+.blog-header h1{font-size:41px;font-weight:300;line-height:1.2;margin-bottom:12px}
+.blog-lead{font-size:16px;color:#707070;margin-bottom:24px}
+.blog-preview-note{font-size:13px;color:#777;border-left:2px solid #5b47b7;padding:2px 0 2px 14px;margin:0 0 38px}
+.blog-list{list-style:none;padding:0;margin:0}
+.blog-list>li{border-top:1px solid #e7e7e7;padding:28px 0}
+.blog-meta{display:flex;align-items:center;flex-wrap:wrap;gap:10px;color:#888;font-size:12px;margin-bottom:12px}
+.blog-sample-label{color:#5b47b7;background:#f5f4fb;border-radius:3px;padding:1px 7px}
+.blog-list h2{font-size:25px;font-weight:400;margin-bottom:9px}
+.blog-list h2 a{color:#333}
+.blog-list .excerpt{font-size:15px;color:#666;margin-bottom:12px;max-width:650px}
+.blog-read{font-size:13px}
+.blog-back{font-size:13px;display:inline-block;margin-bottom:25px}
+.blog-post{max-width:680px;margin-left:auto;margin-right:auto}
+.blog-post .blog-header{border-bottom:1px solid #e7e7e7;margin-bottom:32px;padding-bottom:20px}
+.blog-body{font-size:16px;line-height:1.9;color:#444}
+.blog-body h2{font-size:23px;font-weight:400;margin:32px 0 16px}
+.blog-body blockquote{margin:24px 0;padding:4px 0 4px 20px;border-left:2px solid #c9c9c9;color:#777;font-style:italic}
+.blog-body ul{padding-left:22px}
+.blog-caption{font-size:13px;color:#888}
+.blog-placeholder{padding:32px 20px;text-align:center;border:1px dashed #d5cbd2;background:#fcfafb;margin:24px 0}
+.blog-placeholder span{display:block;font-size:13px;color:#858085}
+@media(max-width:650px){.blog-wrap{margin-top:32px;padding:0 23px}.blog-header h1{font-size:32px}.blog-list h2{font-size:23px}.blog-preview-note{margin-bottom:28px}.blog-list>li{padding:24px 0}.blog-body{font-size:15px}}
