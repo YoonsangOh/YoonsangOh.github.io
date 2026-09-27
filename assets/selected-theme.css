@@ -43,8 +43,6 @@ a:focus-visible,button:focus-visible,summary:focus-visible{outline-color:var(--s
 .paper-video{display:block;width:100%;height:auto;aspect-ratio:4/3;object-fit:contain}
 html[data-theme="dark"] .paper-media{box-shadow:3px 4px 9px #0009,0 0 0 1px #ffffff1f}
 html[data-theme="dark"] .al-profile .portrait{box-shadow:0 3px 9px #0009,0 0 0 1px #ffffff18}
-.video-toggle{position:absolute;right:6px;bottom:6px;display:grid;place-items:center;width:28px;height:28px;border:1px solid #ffffff80;border-radius:50%;background:#201a32d9;color:#fff;font:13px/1 sans-serif;cursor:pointer}
-.video-toggle[hidden]{display:none}
 .blog-empty{min-height:50vh;padding-bottom:80px}
 .blog-empty-note{margin-top:38px;padding-top:24px;border-top:1px solid var(--site-border);color:var(--site-muted);font-size:1em}
 @media(max-width:650px){

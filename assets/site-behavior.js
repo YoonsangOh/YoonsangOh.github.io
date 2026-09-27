@@ -35,25 +35,5 @@
       try { localStorage.setItem(key, chosen); } catch { /* Still works for this visit. */ }
     });
 
-    const video = document.querySelector('.paper-video');
-    const button = document.querySelector('.video-toggle');
-    if (!video || !button) return;
-    const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)');
-    video.muted = true;
-    button.hidden = false;
-    function sync() {
-      button.textContent = video.paused ? '▶' : 'Ⅱ';
-      button.setAttribute('aria-label', video.paused ? 'Play research preview' : 'Pause research preview');
-      button.title = button.getAttribute('aria-label');
-    }
-    function play() { video.play().catch(sync); }
-    button.addEventListener('click', () => video.paused ? play() : video.pause());
-    video.addEventListener('play', sync);
-    video.addEventListener('pause', sync);
-    reducedMotion.addEventListener('change', () => {
-      if (reducedMotion.matches) video.pause();
-    });
-    sync();
-    if (!reducedMotion.matches) play();
   });
 })();
